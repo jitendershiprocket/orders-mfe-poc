@@ -1,0 +1,12 @@
+<div class="orders-simple">
+  <h3>📦 Orders List</h3>
+  
+  <div class="orders-grid">
+    <div *ngFor="let order of orders" class="order-card">
+      <div class="order-id">{{ order.id }}</div>
+      <div class="order-customer">{{ order.customer }}</div>
+      <div class="order-amount">${{ order.amount }}</div>
+      <div class="order-status">{{ order.status }}</div>
+    </div>
+  </div>
+</div>

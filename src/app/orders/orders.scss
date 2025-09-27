@@ -1,0 +1,48 @@
+.orders-simple {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  h3 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+}
+
+.orders-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.order-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 15px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  align-items: center;
+  
+  .order-id {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .order-customer {
+    color: #2c3e50;
+  }
+  
+  .order-amount {
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  .order-status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    background: #ecf0f1;
+    color: #2c3e50;
+  }
+}
